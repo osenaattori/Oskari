@@ -1,0 +1,151 @@
+.wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .kirjoitus {
+    width: 78ch;
+    animation: typing 4.2s steps(222), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+  .responsive {
+     background-image:url(kuvat\vuori.jpg) ;
+
+    image-rendering: auto;
+    width: 25%;
+    height: 20%;
+  }
+
+  .body {
+ 
+        font-family: "Helvetica", Sans-Serif;
+        background-image: url("kuvat\vuori.jpg");
+      }
+
+
+
+  
+
+  body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #173f2586;
+  }
+  
+  #template {
+    display: none;
+  }
+  
+  #container {
+    width: 85vmin;
+    height: 85vmin;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2%;
+  }
+  
+  .line {
+    --fill: 0;
+    --stroke: 1;
+    fill: hsla(350, 100%, 87.6%, var(--fill));
+    stroke: hsla(350, 100%, 87.6%, var(--stroke));
+    stroke-width: calc(3 * var(--stroke));
+    transition: .5s all cubic-bezier(0.79, -1.19, 0, 1.88);
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+  }
+  
+  li a {
+    display: block;
+  }ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+  }
+  
+  li a {
+    display: inline;
+  }
+
+  
+  nav{
+
+    margin-left: 2px;
+align-content:stretch;
+  
+    padding: 0px;
+    padding-bottom: 0px;
+    
+    box-sizing: border-box;
+  }
+
+
+  
+
+.nav {
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+min-height: 8vh;
+background-color: rgb(71, 114, 114);
+font-family: 'Poppins', sans-serif;
+
+ }
+
+
+.logo{
+
+color: rgb(226, 226, 266);
+
+text-transform: uppercase;
+letter-spacing: 1px;
+font-size: 22;
+
+}  
+
+.nav-links {
+
+    font-family: 'PT Serif', serif;
+font-size: 27px;
+    display: flex; 
+    background-color: rosybrown;
+    justify-content: space-around;
+    width: 200%;
+    
+
+
+
+}
